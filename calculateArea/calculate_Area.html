@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rectangle Area Calculator</title>
+</head>
+<body>
+  <h1>Rectangle Area Calculator</h1>
+  <label for="length">Enter the length: </label>
+  <input type="number" id="length"><br><br>
+
+  <label for="width">Enter the width: </label>
+  <input type="number" id="width"><br><br>
+
+  <button onclick="calculateArea()">Calculate Area</button><br><br>
+
+  <p id="result"></p>
+<hr>
+  <div class="grocery">
+    <ul id="groceryList">
+        <li>
+            <label for="item1">Enter item 1 amount: </label>
+            <input type="number" id="item1">
+        </li>
+    </ul>
+    <button id="addItem" onClick="addGroceryItem()"> Add a item </button>
+    <hr>
+    <h3> Total:</h3>
+    <p id="groceryTotal"> </p>
+    <button id="totalBtn" onClick="checkTotal()"> Check Total </button>
+
+  </div>
+<script src="./calculate_Area.js"></script>
+</body>
+</html>
